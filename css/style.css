@@ -6578,3 +6578,388 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	transition: all .3s ease;
 	border-radius: 100%;
 }
+
+
+.flat-accordion .flat-toggle {
+    margin-bottom: 24px;
+  }
+  .flat-accordion .flat-toggle .toggle-content {
+    display: none;
+  }
+  .flat-accordion .flat-toggle.corner-box {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 28px 18px 11px;
+  }
+  .flat-accordion .flat-toggle.corner-box .toggle-title {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(3, 253, 203, 0);
+    padding-bottom: 16px;
+    margin-bottom: 0;
+    position: relative;
+    padding-right: 30px;
+  }
+  .flat-accordion .flat-toggle.corner-box .toggle-title::after {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 4px;
+    top: 0px;
+    content: "\f078";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 500;
+    font-size: 25px;
+    color: #673ab7;
+  }
+  .flat-accordion .flat-toggle.corner-box .toggle-title:hover {
+    cursor: pointer;
+  }
+  .flat-accordion .flat-toggle.active.corner-box {
+    padding: 28px 18px;
+  }
+  .flat-accordion .flat-toggle.active.corner-box .toggle-title {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #673ab7;
+  }
+  .flat-accordion .flat-toggle.active.corner-box .toggle-title::after {
+    transform: rotate(-180deg);
+  }
+
+  .box-text {
+    position: relative;
+    background: rgba(34, 183, 143, 0.1);
+    transform: translateY(0);
+  }
+  .box-text.active, .box-text:hover {
+    box-shadow: 0 0px 32px 0 #673ab7;
+  }
+  .box-text .h7 {
+    text-transform: capitalize;
+    margin-bottom: 16px;
+  }
+  .box-text p {
+    color: #B9B9BF;
+    margin-bottom: 0;
+  }
+  .box-text .number {
+    position: absolute;
+    top: -2px;
+    left: 18px;
+    font-size: 80px;
+    line-height: 96px;
+    color: rgba(34, 183, 143, 0.1);
+    font-weight: 700;
+    font-family: "Chakra Petch", sans-serif;
+  }
+
+  .flat-accordion .flat-toggle {
+    margin-bottom: 24px;
+  }
+  .flat-accordion .flat-toggle .toggle-content {
+    display: none;
+  }
+  .flat-accordion .flat-toggle.corner-box {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 28px 18px 11px;
+  }
+  .flat-accordion .flat-toggle.corner-box .toggle-title {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(3, 253, 203, 0);
+    padding-bottom: 16px;
+    margin-bottom: 0;
+    position: relative;
+    padding-right: 30px;
+  }
+  .flat-accordion .flat-toggle.corner-box .toggle-title::after {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 4px;
+    top: 0px;
+    content: "\f078";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 500;
+    font-size: 25px;
+    color: #673ab7;
+  }
+  .flat-accordion .flat-toggle.corner-box .toggle-title:hover {
+    cursor: pointer;
+  }
+  .flat-accordion .flat-toggle.active.corner-box {
+    padding: 28px 18px;
+  }
+  .flat-accordion .flat-toggle.active.corner-box .toggle-title {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #673ab7;
+  }
+  .flat-accordion .flat-toggle.active.corner-box .toggle-title::after {
+    transform: rotate(-180deg);
+  }
+  
+  .tf-section.faq.style3 .flat-accordion .flat-toggle {
+    float: left;
+    height: auto;
+    width: 50%;
+  }
+  .pg-faq .tf-section.faq.flat-accordion .flat-toggle.corner-box {
+    background: #0e2230;
+  }
+  .h7,
+.h8 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.h7 {
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+
+.tf-button {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    font-family: "Chakra Petch", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 9px 32px;
+    height: 48px;
+    border: none;
+  }
+  .tf-button .boder-fade {
+    position: absolute;
+    transition: all 0.1s;
+    border: 2px solid #673ab7;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+  }
+  .tf-button .effect {
+    display: block;
+  }
+  .tf-button .effect::before, .tf-button .effect::after {
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  .tf-button::before, .tf-button::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  .tf-button:hover {
+    color: #fff;
+  }
+  .tf-button:hover::before, .tf-button:hover::after {
+    width: 100%;
+  }
+  .tf-button:hover .effect::before, .tf-button:hover .effect::after {
+    height: 100%;
+  }
+  .tf-button.btn-effect::before {
+    left: 50%;
+    top: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+  }
+  .tf-button.btn-effect::after {
+    left: 50%;
+    bottom: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+  }
+  .tf-button.btn-effect .effect::before {
+    left: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+  }
+  .tf-button.btn-effect .effect::after {
+    right: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+  }
+  .tf-button.btn-effect:hover::after, .tf-button.btn-effect:hover::before {
+    left: 0;
+  }
+  .tf-button.btn-effect:hover .effect::after, .tf-button.btn-effect:hover .effect::before {
+    top: 0;
+  }
+  .tf-button.st2 {
+    height: 64px;
+    line-height: 64px;
+    padding: 0 33px;
+  }
+  .tf-button.st3 {
+    height: 66px;
+    line-height: 64px;
+    padding: 0 33px;
+  }
+  
+  .tf-button-st2 {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background: #673ab7;
+    font-family: "Chakra Petch", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 32px;
+    height: 64px;
+    border: none;
+  }
+  .tf-button-st2 .boder-fade {
+    position: absolute;
+    transition: all 0.1s;
+    border: 2px solid #673ab7;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+  }
+  .tf-button-st2 .effect {
+    display: block;
+  }
+  .tf-button-st2 .effect::before, .tf-button-st2 .effect::after {
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  .tf-button-st2::before, .tf-button-st2::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  .tf-button-st2:hover {
+    color: #fff;
+    background: transparent;
+  }
+  .tf-button-st2:hover::before, .tf-button-st2:hover::after {
+    width: 100%;
+  }
+  .tf-button-st2:hover .effect::before, .tf-button-st2:hover .effect::after {
+    height: 100%;
+  }
+  .tf-button-st2.btn-effect::before {
+    left: 50%;
+    top: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+  }
+  .tf-button-st2.btn-effect::after {
+    left: 50%;
+    bottom: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+  }
+  .tf-button-st2.btn-effect .effect::before {
+    left: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+  }
+  .tf-button-st2.btn-effect .effect::after {
+    right: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+  }
+  .tf-button-st2.btn-effect:hover::after, .tf-button-st2.btn-effect:hover::before {
+    left: 0;
+  }
+  .tf-button-st2.btn-effect:hover .effect::after, .tf-button-st2.btn-effect:hover .effect::before {
+    top: 0;
+  }
+
+  
+.tf-title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .tf-title .sub-title {
+    line-height: 1.6;
+    color: #673ab7;
+    text-transform: uppercase;
+    font-family: "IBM Plex Mono", monospace;
+    margin-bottom: 8px;
+    letter-spacing: 0.6px;
+  }
+  .tf-title.m-b30,
+.tf-title.m-b60 {
+    margin-bottom: 40px !important;
+  }
+
+  .tf-title .title {
+    text-transform: uppercase;
+  }
+  .m-b17 {
+    margin-bottom: 17px;
+  }
+
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+h4,
+.h4 {
+  font-size: 44px;
+  line-height: 1.25;
+}
+
+p{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
